@@ -161,13 +161,13 @@ class AaaaaKeyboardView(
     }
 
     private fun onUppercase() {
-        btnA.text = "A"
+        btnA.text = "H"
         val colorPrimary = ContextCompat.getColor(context, R.color.colorPrimary)
         btnUppercase.drawable.setTint(colorPrimary)
     }
 
     private fun onLowercase() {
-        btnA.text = "a"
+        btnA.text = "h"
         val colorControlNormal = themeWrapper
                 .theme
                 .obtainStyledAttributes(intArrayOf(android.R.attr.colorControlNormal))

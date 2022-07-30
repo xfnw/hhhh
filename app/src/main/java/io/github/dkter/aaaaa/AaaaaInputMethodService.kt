@@ -66,7 +66,7 @@ class AaaaaInputMethodService : InputMethodService(), AaaaaKeyboardView.AaaaaKey
     }
 
     override fun onA() {
-        inputChar(if (isUppercase) 'A' else 'a')
+        inputChar(if (isUppercase) 'H' else 'h')
     }
 
     override fun onLongA() {
